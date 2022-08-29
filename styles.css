@@ -16,7 +16,7 @@ div > div {
 }
 
 .review-card {
-  margin-left: 1vw;
+  margin: 1vw 0 0 1vw;
   padding: 0.5vw;
   display: inline-block;
   height: fit-content;
