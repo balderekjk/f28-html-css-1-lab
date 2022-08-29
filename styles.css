@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #ff4000;
+}
+
+header > h1 {
+  margin: 0;
+  padding: 12px;
+  color: #edf7f6;
+  background-color: hsl(242, 94%, 18%);
+  text-align: center;
+}
+
+div > div {
+  background-color: #edf7f6;
+}
+
+.review-card {
+  margin-left: 1vw;
+  padding: 0.5vw;
+  display: inline-block;
+  height: fit-content;
+  width: 45.5vw;
+}
+
+.review-card:nth-child(even) {
+  margin-left: 0 auto;
+  vertical-align: top;
+}
+
+.review-card > img {
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div > p {
+  margin: 1vw;
+  font-size: 18px;
+  color: #020122;
+}
+
+p > em > strong {
+  font-size: 22px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 5px;
+  color: white;
+  background-color: hsl(242, 94%, 18%);
+  text-align: center;
+}
+
+footer * {
+  margin-top: 10px;
+}
+
+form > textarea {
+  width: 50%;
+  height: 100px;
+}
